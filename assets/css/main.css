@@ -1,0 +1,33 @@
+/*** ELEMENT SELECTORS ***/
+body
+{
+    margin: 0;
+    padding: 0;
+}
+section
+{
+    width: 100vw;
+    height: minmax(100vh, max-content);
+}
+
+/*** CLASS SELECTORS ***/
+.mt-cards
+{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 50vw));
+    justify-content: center;
+}
+.card
+{
+    box-shadow: 0 4px 8px 0 rgba(100, 100, 250, 0.3);
+    transition: 0.3s;
+    border-radius: 20px;
+    margin: 2.5% 2.5%;
+    height: 30vh;
+    padding: 5%;
+    border: none;
+}
+.card:hover
+{
+    box-shadow: 0 8px 16px 0 rgba(100, 100, 250, 0.3);
+}
