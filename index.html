@@ -13,34 +13,43 @@
 </head>
 
 <body>
+
     <div class="wrapper">
 
+        <nav id="navbar">
+            <a class="nav-item" href="#">Home</a>
+            <a class="nav-item" href="#about">About</a>
+            <a class="nav-item" href="#benefits">Benefits</a>
+            <a class="nav-item" href="#">Choose</a>
+        </nav>
+
+        <!-- MT Information -->
+        <h2 id="about">About Minor Tracks</h2>
         <section class="mt-cards">
             <button class="card" id='MT1' onclick="modalshow(this.id)">
-                    <h3><b>Minor Track 1</b></h3>
-                    <p>Contains short info about minor track</p>
+                <h3><b>Minor Track 1</b></h3>
+                <p>Contains short info about minor track</p>
             </button>
             <button class="card" id='MT2' onclick="modalshow(this.id)">
-                    <h3><b>Minor Track 2</b></h3>
-                    <p>Contains short info about minor track</p>
+                <h3><b>Minor Track 2</b></h3>
+                <p>Contains short info about minor track</p>
             </button>
             <button class="card" id='MT3' onclick="modalshow(this.id)">
-                    <h3><b>Minor Track 3</b></h3>
-                    <p>Contains short info about minor track</p>
+                <h3><b>Minor Track 3</b></h3>
+                <p>Contains short info about minor track</p>
             </button>
             <button class="card" id='MT4' onclick="modalshow(this.id)">
-                    <h3><b>Minor Track 4</b></h3>
-                    <p>Contains short info about minor track</p>
+                <h3><b>Minor Track 4</b></h3>
+                <p>Contains short info about minor track</p>
             </button>
             <button class="card" id='MT5' onclick="modalshow(this.id)">
-                    <h3><b>Minor Track 5</b></h3>
-                    <p>Contains short info about minor track</p>
+                <h3><b>Minor Track 5</b></h3>
+                <p>Contains short info about minor track</p>
             </button>
         </section>
 
         <!-- Modals -->
-
-        <div class="modal fade" id="MT1_Modal" role="dialog">
+        <div class="modal fade" id="Modal" role="dialog">
             <div class="modal-dialog">
 
                 <!-- Modal content-->
@@ -50,79 +59,8 @@
                         <h4 class="modal-title">Modal Header</h4>
                     </div>
                     <div class="modal-body">
-                        <p>Some text in the modal.</p>
-                    </div>
-                    <div class="modal-footer">
-                        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="modal fade" id="MT2_Modal" role="dialog">
-            <div class="modal-dialog">
-
-                <!-- Modal content-->
-                <div class="modal-content">
-                    <div class="modal-header">
-                        <button type="button" class="close" data-dismiss="modal">&times;</button>
-                        <h4 class="modal-title">Modal Header</h4>
-                    </div>
-                    <div class="modal-body">
-                        <p>Some text in the modal.</p>
-                    </div>
-                    <div class="modal-footer">
-                        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="modal fade" id="MT3_Modal" role="dialog">
-            <div class="modal-dialog">
-
-                <!-- Modal content-->
-                <div class="modal-content">
-                    <div class="modal-header">
-                        <button type="button" class="close" data-dismiss="modal">&times;</button>
-                        <h4 class="modal-title">Modal Header</h4>
-                    </div>
-                    <div class="modal-body">
-                        <p>Some text in the modal.</p>
-                    </div>
-                    <div class="modal-footer">
-                        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="modal fade" id="MT4_Modal" role="dialog">
-            <div class="modal-dialog">
-
-                <!-- Modal content-->
-                <div class="modal-content">
-                    <div class="modal-header">
-                        <button type="button" class="close" data-dismiss="modal">&times;</button>
-                        <h4 class="modal-title">Modal Header</h4>
-                    </div>
-                    <div class="modal-body">
-                        <p>Some text in the modal.</p>
-                    </div>
-                    <div class="modal-footer">
-                        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="modal fade" id="MT5_Modal" role="dialog">
-            <div class="modal-dialog">
-
-                <!-- Modal content-->
-                <div class="modal-content">
-                    <div class="modal-header">
-                        <button type="button" class="close" data-dismiss="modal">&times;</button>
-                        <h4 class="modal-title">Modal Header</h4>
-                    </div>
-                    <div class="modal-body">
-                        <p>Some text in the modal.</p>
+                        <h5 id="modal-institute">Institute Name</h5>
+                        <p id="modal-text">Some text in the modal.</p>
                     </div>
                     <div class="modal-footer">
                         <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
@@ -131,7 +69,11 @@
             </div>
         </div>
 
-
+        <!-- Benefits -->
+        <h2 id="benefits">Benefits of Minor Tracks</h2>
+        <section class="benefits">
+            
+        </section>
     </div>
     <script src="assets/js/index.js"></script>
 </body>
